@@ -1,0 +1,16 @@
+{
+  "name": "recipes-cost-calculator",
+  "version": "1.0.0",
+  "description": "production cost and selling price",
+  "main": "index.js",
+  "scripts": {
+    "start": "next dev"
+  },
+  "author": "belossauro",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
