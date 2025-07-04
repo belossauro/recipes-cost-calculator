@@ -4,7 +4,8 @@
   "description": "production cost and selling price",
   "main": "index.js",
   "scripts": {
-    "start": "next dev"
+    "start": "next dev",
+    "test:watch": "jest --watch"
   },
   "author": "belossauro",
   "license": "MIT",
@@ -12,5 +13,9 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "prettier": "^3.6.2"
   }
 }
